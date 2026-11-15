@@ -1,0 +1,76 @@
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    padding: 0 55px;
+}
+
+
+
+
+.wonderyy-text {
+    color: black;
+    font-size: 15px;
+    padding-left: 20px;
+    align-items: center;
+    display: flex;
+    padding-right: 20px;
+}
+
+.left-side {
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    border-color: black;
+}
+
+.middle-part {
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-color: black;
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.search-button img {
+    width: 22px;
+    height: 22px;
+}
+
+.right-side {
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.signup-text {
+
+
+}
+    
