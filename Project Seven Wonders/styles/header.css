@@ -9,9 +9,6 @@
     padding: 0 55px;
 }
 
-
-
-
 .wonderyy-text {
     color: black;
     font-size: 15px;
@@ -38,6 +35,12 @@
     display: flex;
     align-items: center;
     border-color: black;
+    transition: 0.3s;
+}
+
+.middle-part:hover {
+    background-color: aliceblue;
+    transform:scale(1.2);
 }
 
 .search-button {
@@ -67,10 +70,16 @@
     border-color: black;
     padding-left: 20px;
     padding-right: 20px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-.signup-text {
-
-
+.right-side:hover {
+    background-color: aliceblue;
+    transform:scale(1.2);
 }
     
+
+
+
+
