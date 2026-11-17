@@ -1,0 +1,55 @@
+
+/* SIDEBAR */
+.sidebar {
+    position: fixed;
+    top: 110px;
+    left: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    width: 65px;
+    padding: 12px 8px;
+    box-sizing: border-box;
+
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    border: none;
+    border-radius: 40px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    z-index: 50;
+}
+
+/* ICON BUTTONS */
+.sidebar-button {
+    width: 44px;
+    height: 44px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #fafafa;
+    border: none;
+    border-radius: 50%;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* ICONS */
+.sidebar-button img {
+    width: 21px;
+    height: 21px;
+}
+
+/* HOVER */
+.sidebar-button:hover {
+    background: #e5e5e5;
+    transform: scale(1.06);
+}

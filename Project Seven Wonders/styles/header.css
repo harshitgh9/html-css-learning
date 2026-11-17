@@ -1,85 +1,84 @@
-.header {
+
+.title-navigation {
     position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     top: 15px;
-    left: 15px;
-    right: 15px;
-    padding: 0 55px;
-}
+    right: 20px;
 
-.wonderyy-text {
-    color: black;
-    font-size: 15px;
-    padding-left: 20px;
-    align-items: center;
-    display: flex;
-    padding-right: 20px;
-}
-
-.left-side {
-    background-color: white;
-    border-style: solid;
-    border-radius: 20px;
-    height: 40px;
-    display: flex;
-    border-color: black;
-}
-
-.middle-part {
-    background-color: white;
-    border-style: solid;
-    border-radius: 20px;
-    height: 40px;
     display: flex;
     align-items: center;
-    border-color: black;
-    transition: 0.3s;
+    gap: 14px;
+
+    z-index: 100;
 }
 
-.middle-part:hover {
-    background-color: aliceblue;
-    transform:scale(1.2);
-}
-
-.search-button {
+.navigation-card {
     display: flex;
     align-items: center;
-    gap: 8px;
-    background-color: transparent;
+    justify-content: center;
+    gap: 16px;
+
+    padding: 8px 16px;
+
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
     border: none;
-    font-size: 16px;
-    cursor: pointer;
-    padding-left: 20px;
-    padding-right: 20px;
+    border-radius: 40px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
 }
 
-.search-button img {
-    width: 22px;
-    height: 22px;
-}
+.tab {
+    width: 44px;
+    height: 44px;
 
-.right-side {
-    background-color: white;
-    border-style: solid;
-    border-radius: 20px;
-    height: 40px;
     display: flex;
     align-items: center;
-    border-color: black;
-    padding-left: 20px;
-    padding-right: 20px;
+    justify-content: center;
+
+    background: #fafafa;
+    border: none;
+    border-radius: 50%;
+
     cursor: pointer;
-    transition: 0.3s;
+    text-decoration: none;
+    transition: 0.3s ease;
 }
 
-.right-side:hover {
-    background-color: aliceblue;
-    transform:scale(1.2);
+.tab img,
+.tab svg {
+    width: 21px;
+    height: 21px;
 }
-    
 
+.tab:hover {
+    background: #e5e5e5;
+    transform: scale(1.06);
+}
 
+.profile-picture {
+    width: 46px;
+    height: 46px;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+    background: #fafafa;
+    border-radius: 50%;
+    overflow: hidden;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-picture:hover {
+    transform: scale(1.05);
+}

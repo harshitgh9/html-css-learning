@@ -1,0 +1,91 @@
+
+/* MAIN CONTENT */
+.wonder-container {
+    margin: 125px 35px 40px 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+/* EACH WONDER */
+.wonder-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 35px;
+
+    padding: 20px;
+    background: #ffffff;
+
+    border: none;
+    border-bottom: 1px solid #dedede;
+    border-radius: 0;
+
+    box-shadow: none;
+}
+
+/* IMAGE */
+.wonder-card img {
+    width: 290px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+
+    /* Hover animation */
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* IMAGE HOVER EFFECT */
+.wonder-card img:hover {
+    transform: scale(1.04);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+/* TITLE */
+.wonder-card h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #263747;
+    margin: 0 0 25px;
+}
+
+/* DESCRIPTION */
+.wonder-card p {
+    font-size: 19px;
+    line-height: 1.8;
+    color: #333333;
+}
+
+/* WONDER INFORMATION */
+.wonder-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.wonder-info ul {
+    padding-left: 22px;
+    margin: 0;
+}
+
+.wonder-info li {
+    font-size: 19px;
+    line-height: 1.6;
+    padding: 15px 0;
+    border-bottom: 1px solid #dedede;
+}
+
+.wonder-info li:last-child {
+    border-bottom: none;
+}
+
+/* RESPONSIVE */
+@media (max-width: 750px) {
+    .wonder-card {
+        flex-direction: column;
+    }
+
+    .wonder-card img {
+        width: 100%;
+        height: 250px;
+    }
+}
